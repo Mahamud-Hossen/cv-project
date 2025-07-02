@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{  
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400 ;
+    font-style: normal;
+    background-color: azure;
+}
+.containar{
+    max-width:1000px;
+    background-color: rgb(142, 255, 255);
+    margin: 0 auto;
+    padding: 10px;
+}
+/* header start hare*/
+#header{
+    
+}
+.header-img{
+    height: 120px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+    opacity: 0.5;
+}
+.header-img:hover{
+    opacity: 1;
+}
+.header-bio{
+    padding: 20px;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(19, 104, 101);
+}
+h3{
+    margin-top: -15px;
+}
+.header-contact{
+    float: right;
+    padding: 20px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-close{
+    clear: both;
+}
+.hr1{
+    border: 5px solid black;
+    margin: 10px auto;
+    width: 100%;
+    border-bottom: none;
+}
+/* main start hare*/
+#parsonal-section{
+
+}
+.parsonal-content{
+    margin: 20px 0px 20px 0px;
+}
+.div-left{
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+}
+.div-right{
+    width: 70%;
+    float: left;
+}
+.all-hr{
+    border: 3px solid rgb(15, 12, 12);
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+.div-tamplate-left{
+    float: left;
+    width: 45%;
+}
+.div-tamplate-right{
+    float: right;
+    width: 45%;
+}
+.div-right ul li{
+    margin-left: 20px;
+}
+/* main end hare*/
+/* footer start hare*/
+#footer-section{
+    
+}
+.footer-content{
+    background-color: rgb(147, 90, 90);
+    text-align: center;
+    padding: 20px ;
+}
+.footer-content a{
+    text-decoration:none ;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+.footer-content p{
+    color: rgb(52, 48, 58);
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* footer end hare*/
+h3:hover{
+    color: rgb(234, 4, 4);
+}
